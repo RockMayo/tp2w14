@@ -1,0 +1,59 @@
+﻿body
+{
+    background-color:#DDD;
+    margin:0px;
+    font-family:"Arial","Helvetica","Roboto",sans-serif;
+}
+#header {
+    background-color:white;
+    height:90px;
+    width:100%;
+    text-align:center;
+    padding-top:20px;
+    font-size:60px;
+    font-weight:bold;
+}
+#carouselle {
+    width:1185px;
+    height:553px;
+    float:left;
+    margin:0px 20px;
+}
+#carousellecontainer {
+    width:1431px;
+    height:580px;
+    margin-top:50px;
+    padding-top:20px;
+    margin:20px auto;
+}
+.bouttons {
+    width:100px;
+    height:100px;
+    margin:220px 0px 0px 0px;
+    float:left;
+}
+    .bouttons:hover {
+        cursor:pointer;
+    }
+#selector {
+    width:405px;
+    height:60px;
+    margin:20px auto;
+    border-left:1px solid black;
+}
+.imageselector {
+    border-right:1px solid black;
+    width:133px;
+    height:60px;
+    float:left;
+    opacity:0.8;
+}
+    .imageselector:hover {
+        cursor:pointer;
+        opacity:1;
+    }
+#carname {
+    text-align:center;
+    font-weight:bold;
+    font-size:60px;
+}

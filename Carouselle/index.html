@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="Script.js"></script>
+    <title></title>
+</head>
+<body>
+    <div id="header">
+        BMW Collection 2016
+    </div>
+    <div id="selector">
+        <div class="imageselector" onclick="SetCar('M2')"><img src="images/m25.jpg" width="133" alt="Alternate Text" /></div>
+        <div class="imageselector" onclick="SetCar('M4')"><img src="images/M45.jpg" width="133" alt="Alternate Text" /></div>
+        <div class="imageselector" onclick="SetCar('M6')"><img src="images/M65.jpg" width="133" alt="Alternate Text" /></div>
+    </div>
+    <div id="carousellecontainer">
+        <div class="bouttons" onclick="ChangeImg(-1)">
+            <img width="100" src="images/left.png" alt="Alternate Text" />
+        </div>
+        <div id="carouselle">
+            <img id="CarImage" src="images/m25.jpg" width="1185" alt="Alternate Text" />
+        </div>
+        <div class="bouttons" onclick="ChangeImg(1)">
+            <img width="100" src="images/right.png" alt="Alternate Text" />
+        </div>
+    </div>
+    <div id="carname">M2</div>
+</body>
+</html>
